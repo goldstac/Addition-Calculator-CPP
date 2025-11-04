@@ -1,5 +1,5 @@
-# 🧮 Addition  Calculator C++
-## A Simple Addition Calculator Written In C++
+# 🧮 Multiplication Calculator C++
+## A Simple Multiplication Calculator Written In C++
 ```cpp
 #include <iostream>
 using namespace std;
@@ -11,7 +11,7 @@ int main() {
     cout << "Enter Second Number \n";
     cin >> second_number;
     int calculate;
-    calculate = first_number + second_number;
+    calculate = first_number - second_number;
     cout << "Total Is" << " " << calculate;
     return 0;
 }
